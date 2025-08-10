@@ -30,6 +30,6 @@ O site possui um design **minimalista**, **responsivo** e com **animações suav
 
 ## 💻 Visualização
 
-👉 [**Portfólio - Benedito Braga**](https://seuusuario.github.io/seu-repositorio)
+👉 [**Portfólio - Benedito Braga**](https://beneditobraga.github.io/portfolio/)
 
 ---
