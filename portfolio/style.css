@@ -1,0 +1,115 @@
+/* ===== Reset Básico ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+/* ===== Cabeçalho ===== */
+header h1 {
+    font-size: 2.5rem;
+    color: #00aaff;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #ccc;
+    margin-top: 5px;
+}
+
+/* ===== Foto de Perfil ===== */
+.profile {
+    margin: 30px 0;
+}
+
+.profile-pic {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 4px solid #00aaff;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.profile-pic:hover {
+    transform: scale(1.05);
+}
+
+/* ===== Links ===== */
+.links {
+    margin: 20px 0;
+}
+
+.btn {
+    display: inline-block;
+    background-color: transparent;
+    color: #00aaff;
+    border: 2px solid #00aaff;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #00aaff;
+    color: #000;
+}
+
+/* ===== Projetos ===== */
+.projects {
+    margin-top: 40px;
+}
+
+.projects h2 {
+    font-size: 1.8rem;
+    color: #00aaff;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: #111;
+    border: 1px solid #00aaff;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 300px;
+    margin: auto;
+    font-size: 1.1rem;
+}
+
+/* ===== Rodapé ===== */
+footer {
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+/* ===== Animações ===== */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 1s forwards;
+}
+
+.fade-in:nth-child(1) { animation-delay: 0.3s; }
+.fade-in:nth-child(2) { animation-delay: 0.6s; }
+.fade-in:nth-child(3) { animation-delay: 0.9s; }
+.fade-in:nth-child(4) { animation-delay: 1.2s; }
+.fade-in:nth-child(5) { animation-delay: 1.5s; }
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
