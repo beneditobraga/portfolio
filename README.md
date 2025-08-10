@@ -24,7 +24,9 @@ O site possui um design **minimalista**, **responsivo** e com **animações suav
 
 ## 📷 Prévia
 
-
+<div>
+    <img alt="Preview" src="preview.png">
+</div>
 
 ---
 
